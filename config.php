@@ -3,8 +3,8 @@
 <?php
 // Connection to MySQL database
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "admin@admin.com";
+$password = "admin";
 $dbname = "feedback";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
